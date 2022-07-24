@@ -6,8 +6,8 @@ Python package to change the text color of the python console.
 
 Run the following to install:  
 
-```python
-pip install colorway
+```bash
+$ pip install colorway
 ```
 
 ## 🚀 Usage
