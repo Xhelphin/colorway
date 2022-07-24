@@ -71,6 +71,10 @@ The colors available to use are:
 - 🟦 Cyan
 - ⬜ White
 
+### Note
+Please be aware that you can **not** combine foreground and background formatting if you use high-intensity colors.  
+Please be aware that custom colors may **not** be supported by all terminal outputs.  
+
 ## 👨‍💻 Developing Colorway
 
 To install colorway, along with the tools you need to develop and run tests, run the following in your virtualenv:
