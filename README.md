@@ -1,14 +1,14 @@
-# Colorway
+# 🎨 Colorway
 Python package to change the text color of the python console.  
 
-## Usage
+## 🚀 Usage
 _Coming soon!_  
 
-## Installation
+## 📦 Installation
 _Coming soon!_  
 
-## Developing Colorway
+## 👨‍💻 Developing Colorway
 _Coming soon!_  
 
-## Development Progress
+## 🚦 Development Progress
 Unstable Development  
