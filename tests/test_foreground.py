@@ -119,3 +119,6 @@ def test_highintensity_bold_cyan():
 
 def test_highintensity_bold_white():
     assert highintensity_bold_white_fg("test") == '\x1b[1;97mtest\x1b[0m'
+
+def test_custom():
+    assert custom_fg(1,2,3,"test") == '\x1b[38;2;1;2;3mtest\x1b[0m'

@@ -47,3 +47,6 @@ def test_highintensity_cyan():
 
 def test_highintensity_white():
     assert highintensity_white_bg("test") == '\x1b[0;107mtest\x1b[0m'
+
+def test_custom():
+    assert custom_bg(1,2,3,"test") == '\x1b[48;2;1;2;3mtest\x1b[0m'
