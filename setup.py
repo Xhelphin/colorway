@@ -5,9 +5,9 @@ with open("README.md", "r") as fh:
 
 setup(
     name='colorway',
-    version='1.0.0',
+    version='2.0.0',
     description='Python package to change the text color of the python console.',
-    py_modules=["colorway_foreground","colorway_background"],
+    py_modules=["colorway_foreground","colorway_background","colorway_manual"],
     package_dir={'': 'src'},
     classifiers=[
         "Programming Language :: Python :: 3",
