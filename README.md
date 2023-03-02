@@ -60,6 +60,23 @@ from colorway_background import *
 print(red_fg(blue_bg("Hello, World!")))
 ```
 
+### Manual
+
+You can also use the manual package to manually format parts of strings.
+
+```python
+from colorway_manual import *
+
+# Generate red text
+print(f'{foreground.red}Hello, World!{format.clear}')
+
+# Generate text with red background
+print(f'{background.red}Hello, World!{format.clear}')
+
+# Generate text with a mix of colors
+print(f'{foreground.red}Hello, {background.blue}World!{format.clear}')
+```
+
 ### Available colors
 The colors available to use are:  
 - ⬛ Black
