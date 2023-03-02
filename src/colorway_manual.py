@@ -13,6 +13,12 @@ import os
 if os.name == 'nt':
     os.system("")
 
+class format:
+    """
+    Class for misc formatting codes
+    """
+    clear = "\033[0m"
+
 class foreground:
     """
     Class for foreground formatting codes
