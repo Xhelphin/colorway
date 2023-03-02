@@ -78,15 +78,128 @@ print(f'{foreground.red}Hello, {background.blue}World!{format.clear}')
 ```
 
 ### Available colors
-The colors available to use are:  
-- ⬛ Black
-- 🟥 Red
-- 🟩 Green
-- 🟨 Yellow
-- 🟦 Blue
-- 🟪 Purple
-- 🟦 Cyan
-- ⬜ White
+#### Foreground
+- `black_fg(string)`
+- `red_fg(string)`
+- `green_fg(string)`
+- `yellow_fg(string)`
+- `blue_fg(string)`
+- `purple_fg(string)`
+- `cyan_fg(string)`
+- `white_fg(string)`
+- `bold_black_fg(string)`
+- `bold_red_fg(string)`
+- `bold_green_fg(string)`
+- `bold_yellow_fg(string)`
+- `bold_blue_fg(string)`
+- `bold_purple_fg(string)`
+- `bold_cyan_fg(string)`
+- `bold_white_fg(string)`
+- `underline_black_fg(string)`
+- `underline_red_fg(string)`
+- `underline_green_fg(string)`
+- `underline_yellow_fg(string)`
+- `underline_blue_fg(string)`
+- `underline_purple_fg(string)`
+- `underline_cyan_fg(string)`
+- `underline_white_fg(string)`
+- `highintensity_black_fg(string)`
+- `highintensity_red_fg(string)`
+- `highintensity_green_fg(string)`
+- `highintensity_yellow_fg(string)`
+- `highintensity_blue_fg(string)`
+- `highintensity_purple_fg(string)`
+- `highintensity_cyan_fg(string)`
+- `highintensity_white_fg(string)`
+- `highintensity_bold_black_fg(string)`
+- `highintensity_bold_red_fg(string)`
+- `highintensity_bold_green_fg(string)`
+- `highintensity_bold_yellow_fg(string)`
+- `highintensity_bold_blue_fg(string)`
+- `highintensity_bold_purple_fg(string)`
+- `highintensity_bold_cyan_fg(string)`
+- `highintensity_bold_white_fg(string)`
+- `custom_fg(red, green, blue, string)`
+
+#### Background
+- `black_bg(string)`
+- `red_bg(string)`
+- `green_bg(string)`
+- `yellow_bg(string)`
+- `blue_bg(string)`
+- `purple_bg(string)`
+- `cyan_bg(string)`
+- `white_bg(string)`
+- `highintensity_black_bg(string)`
+- `highintensity_red_bg(string)`
+- `highintensity_green_bg(string)`
+- `highintensity_yellow_bg(string)`
+- `highintensity_blue_bg(string)`
+- `highintensity_purple_bg(string)`
+- `highintensity_cyan_bg(string)`
+- `highintensity_white_bg(string)`
+- `custom_bg(red, green, blue, string)`
+
+#### Manual
+- `format.clear`
+- `foreground.black`
+- `foreground.red`
+- `foreground.green`
+- `foreground.yellow`
+- `foreground.blue`
+- `foreground.purple`
+- `foreground.cyan`
+- `foreground.white`
+- `foreground.bold.black`
+- `foreground.bold.red`
+- `foreground.bold.green`
+- `foreground.bold.yellow`
+- `foreground.bold.blue`
+- `foreground.bold.purple`
+- `foreground.bold.cyan`
+- `foreground.bold.white`
+- `foreground.underline.black`
+- `foreground.underline.red`
+- `foreground.underline.green`
+- `foreground.underline.yellow`
+- `foreground.underline.blue`
+- `foreground.underline.purple`
+- `foreground.underline.cyan`
+- `foreground.underline.white`
+- `foreground.highintensity.black`
+- `foreground.highintensity.red`
+- `foreground.highintensity.green`
+- `foreground.highintensity.yellow`
+- `foreground.highintensity.blue`
+- `foreground.highintensity.purple`
+- `foreground.highintensity.cyan`
+- `foreground.highintensity.white`
+- `foreground.highintensity.bold.black`
+- `foreground.highintensity.bold.red`
+- `foreground.highintensity.bold.green`
+- `foreground.highintensity.bold.yellow`
+- `foreground.highintensity.bold.blue`
+- `foreground.highintensity.bold.purple`
+- `foreground.highintensity.bold.cyan`
+- `foreground.highintensity.bold.white`
+- `foreground.custom(red, green, blue)`
+- `background.black`
+- `background.red`
+- `background.green`
+- `background.yellow`
+- `background.blue`
+- `background.purple`
+- `background.cyan`
+- `background.white`
+- `background.highintensity.black`
+- `background.highintensity.red`
+- `background.highintensity.green`
+- `background.highintensity.yellow`
+- `background.highintensity.blue`
+- `background.highintensity.purple`
+- `background.highintensity.cyan`
+- `background.highintensity.white`
+- `background.custom(red, green, blue)`
 
 ### Note
 Please be aware that you can **not** combine foreground and background formatting if you use high-intensity colors.  
