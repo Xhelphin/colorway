@@ -1,3 +1,6 @@
+> [!WARNING]
+> This project has been archived and is no longer maintained.
+
 # 🎨 Colorway
 
 Python package to change the text color of the python console.  
@@ -215,4 +218,4 @@ $ pip install -e .[dev]
 
 ## 🚦 Development Progress
 
-Stable Development 
+No longer developed
